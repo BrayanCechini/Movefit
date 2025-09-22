@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoveFit: Acelerando o Sucesso da SportGear</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .bg-hero {
+            background-color: #1a202c; /* Cor de fundo escura */
+            background-image: radial-gradient(at 50% 50%, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%), url('https://placehold.co/1920x1080/000000/FFFFFF?text=Fundo+Abstrato+Esportivo');
+            background-size: cover;
+            background-position: center;
+        }
+        .loading-spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top: 4px solid #3498db;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+
+    <!-- Header / Navbar -->
+    <header class="bg-gray-800 bg-opacity-70 backdrop-blur-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-600">MoveFit</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#solucao" class="text-gray-300 hover:text-white transition-colors duration-300">Nossa Solução</a>
+                <a href="#estrategia" class="text-gray-300 hover:text-white transition-colors duration-300">Estratégia</a>
+                <a href="#tecnologia" class="text-gray-300 hover:text-white transition-colors duration-300">Tecnologia</a>
+                <a href="#ferramentas" class="text-gray-300 hover:text-white transition-colors duration-300">Ferramentas ✨</a>
+                <a href="#contato" class="px-4 py-2 bg-indigo-600 rounded-full text-white hover:bg-indigo-500 transition-colors duration-300">Entre em Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-hero min-h-screen flex items-center justify-center text-center px-4 py-16">
+        <div class="max-w-4xl mx-auto rounded-xl p-8 backdrop-blur-sm bg-gray-800 bg-opacity-50">
+            <h1 class="text-5xl md:text-6xl font-extrabold leading-tight text-white mb-4">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-600">MoveFit:</span> Acelerando o Sucesso Digital da sua Marca Esportiva
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-8">
+                De uma marca física consolidada a um gigante digital. Somos a sua parceira para dominar o mercado online.
+            </p>
+            <a href="#solucao" class="px-8 py-4 bg-indigo-600 rounded-full text-white font-bold text-lg hover:bg-indigo-500 transition-colors duration-300 shadow-lg transform hover:scale-105">
+                Descubra Como
+            </a>
+        </div>
+    </section>
+
+    <!-- Problema e Solução Section -->
+    <section id="solucao" class="py-16 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-200">Nosso Desafio & Nossa Solução</h2>
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="w-full md:w-1/2 p-6 bg-gray-800 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-4 text-white">O Desafio da SportGear</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        Apesar de sua loja física de sucesso, a SportGear enfrenta um grande problema: **baixa visibilidade online**. Ela está perdida na multidão digital, com pouca presença nos motores de busca e nas redes sociais, perdendo a corrida por tráfego e clientes.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        A **experiência do usuário (UX)** do site é confusa, resultando em altas taxas de abandono de carrinho. O mercado online é altamente competitivo, com gigantes como Centauro e Netshoes dominando o cenário, deixando a SportGear em desvantagem.
+                    </p>
+                </div>
+                <div class="w-full md:w-1/2 p-6 bg-gray-800 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Nossa Solução: A MoveFit</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        A **MoveFit** é mais que uma agência. Somos a parceira estratégica da SportGear para sua **transformação digital**. Nossa missão é elevar sua presença online, transformando-a em uma referência no mercado.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed">
+                        Nossa abordagem se baseia em três pilares fundamentais:
+                        <ul class="list-disc list-inside mt-4 text-gray-300">
+                            <li>**SEO Robusto:** Para o topo das buscas do Google.</li>
+                            <li>**Conteúdo Estratégico:** Para atrair e engajar seu público.</li>
+                            <li>**Comunidade Online:** Para construir uma presença forte e ativa nas redes sociais.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estratégia e Jornada Section -->
+    <section id="estrategia" class="py-16 bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-200">Estratégia e a Jornada do Cliente</h2>
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="w-full md:w-1/2 p-6 bg-gray-900 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-4 text-white">O Caminho do Cliente</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        Transformamos a jornada de compra em um processo fluido e envolvente, do primeiro contato à fidelização:
+                    </p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>**Descoberta:** O cliente busca online e encontra um artigo do blog da SportGear, otimizado por nós.</li>
+                        <li>**Consideração:** Ele lê o conteúdo, se identifica com a marca e navega para a página de produtos.</li>
+                        <li>**Decisão:** Uma experiência de site intuitiva garante que a compra seja finalizada com facilidade.</li>
+                        <li>**Lealdade:** Recebendo conteúdo e promoções personalizadas, ele se torna um cliente recorrente.</li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <img src="https://placehold.co/800x600/1e293b/d1d5db?text=Jornada+do+Cliente+Visual" alt="Jornada do Cliente" class="rounded-xl shadow-lg">
+                </div>
+            </div>
+            <div class="mt-16 text-center">
+                <h3 class="text-3xl font-bold mb-4 text-white">Nosso Plano de Ação</h3>
+                <p class="text-gray-400 mb-8">
+                    Dividimos nosso trabalho em fases estratégicas para garantir um crescimento contínuo e mensurável.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="p-6 bg-gray-900 rounded-xl shadow-lg">
+                        <h4 class="text-xl font-semibold text-white mb-2">Fase 1: Auditoria e Otimização</h4>
+                        <p class="text-gray-400">Análise completa do site e correção de problemas técnicos de SEO. (1-3 meses)</p>
+                    </div>
+                    <div class="p-6 bg-gray-900 rounded-xl shadow-lg">
+                        <h4 class="text-xl font-semibold text-white mb-2">Fase 2: Aceleração de Conteúdo</h4>
+                        <p class="text-gray-400">Criação de artigos para blog e estratégia para redes sociais. (4-6 meses)</p>
+                    </div>
+                    <div class="p-6 bg-gray-900 rounded-xl shadow-lg">
+                        <h4 class="text-xl font-semibold text-white mb-2">Fase 3: Expansão e Automação</h4>
+                        <p class="text-gray-400">Campanhas de SEO avançadas e automação de marketing. (7-12 meses)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gemini Features Section -->
+    <section id="ferramentas" class="py-16 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-200">Nossas Ferramentas Interativas ✨</h2>
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="w-full md:w-1/2 p-6 bg-gray-800 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Gerador de Ideias de Conteúdo ✨</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        O coração de uma estratégia digital é o conteúdo. Insira um produto ou tópico da SportGear e veja a mágica acontecer!
+                    </p>
+                    <input id="content-input" type="text" placeholder="Ex: Ténis de corrida para trilha" class="w-full p-3 mb-4 bg-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-600">
+                    <button id="generate-content-btn" class="w-full px-6 py-3 bg-indigo-600 rounded-full text-white font-bold hover:bg-indigo-500 transition-colors duration-300 transform hover:scale-105">
+                        Gerar Conteúdo
+                    </button>
+                    <div id="content-result" class="mt-6 p-4 bg-gray-700 rounded-lg text-gray-300 leading-relaxed min-h-[100px] overflow-auto">
+                        <!-- Result will be displayed here -->
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 p-6 bg-gray-800 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Gerador de Palavras-chave SEO ✨</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        A visibilidade começa com a palavra-chave certa. Digite um produto e obtenha sugestões para otimizar as buscas.
+                    </p>
+                    <input id="keywords-input" type="text" placeholder="Ex: Camisa de treino" class="w-full p-3 mb-4 bg-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-600">
+                    <button id="generate-keywords-btn" class="w-full px-6 py-3 bg-indigo-600 rounded-full text-white font-bold hover:bg-indigo-500 transition-colors duration-300 transform hover:scale-105">
+                        Gerar Palavras-chave
+                    </button>
+                    <div id="keywords-result" class="mt-6 p-4 bg-gray-700 rounded-lg text-gray-300 leading-relaxed min-h-[100px] overflow-auto">
+                        <!-- Result will be displayed here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tecnologia e Analytics Section -->
+    <section id="tecnologia" class="py-16 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-200">Tecnologia & Analytics</h2>
+            <div class="flex flex-col md:flex-row gap-8 items-center">
+                <div class="w-full md:w-1/2">
+                    <img src="https://placehold.co/800x600/1f2937/9ca3af?text=Tecnologia+Dashboard+Visual" alt="Dashboard de Tecnologia" class="rounded-xl shadow-lg">
+                </div>
+                <div class="w-full md:w-1/2 p-6 bg-gray-800 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-4 text-white">Nossas Ferramentas</h3>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        Utilizamos as melhores ferramentas do mercado para garantir a máxima eficiência e resultados mensuráveis.
+                    </p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>**Plataforma de E-commerce:** VTEX ou Shopify Plus para performance e SEO.</li>
+                        <li>**Ferramentas de SEO:** SEMrush ou Ahrefs para pesquisa de palavras-chave.</li>
+                        <li>**Automação de Marketing:** RD Station ou HubSpot para e-mail e landing pages.</li>
+                    </ul>
+                    <p class="mt-4 text-gray-400">
+                        A SportGear terá acesso a um painel de controle simples e intuitivo, visualizando todos os dados em tempo real.
+                    </p>
+                </div>
+            </div>
+            <div class="mt-16 text-center">
+                <h3 class="text-3xl font-bold mb-4 text-white">KPIs: Medindo o Sucesso</h3>
+                <p class="text-gray-400 mb-8">
+                    Nós provamos nosso valor com dados concretos. Nossas métricas-chave de sucesso incluem:
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="p-6 bg-gray-800 rounded-xl shadow-lg flex items-center justify-center space-x-4">
+                        <svg class="w-10 h-10 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 18a8 8 0 100-16 8 8 0 000 16zM6.5 9a1 1 0 100-2 1 1 0 000 2zM13.5 9a1 1 0 100-2 1 1 0 000 2zM10 15a1 1 0 100-2 1 1 0 000 2z"/>
+                        </svg>
+                        <span class="text-lg font-bold text-white">Tráfego Orgânico</span>
+                    </div>
+                    <div class="p-6 bg-gray-800 rounded-xl shadow-lg flex items-center justify-center space-x-4">
+                        <svg class="w-10 h-10 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 2a8 8 0 100 16 8 8 0 000-16zM8 12a1 1 0 01-1-1V9a1 1 0 011-1h4a1 1 0 011 1v2a1 1 0 01-1 1H8zM7 9a1 1 0 01-1-1V5a1 1 0 011-1h6a1 1 0 011 1v4a1 1 0 01-1 1H7z"/>
+                        </svg>
+                        <span class="text-lg font-bold text-white">Taxa de Conversão</span>
+                    </div>
+                    <div class="p-6 bg-gray-800 rounded-xl shadow-lg flex items-center justify-center space-x-4">
+                        <svg class="w-10 h-10 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M17.586 2.586a2 2 0 00-2.828 0L9.5 7.857 4.243 2.586a2 2 0 00-2.828 2.828L6.672 10 1.414 15.257a2 2 0 002.828 2.828L9.5 12.143l5.257 5.257a2 2 0 002.828-2.828L12.328 10l5.258-5.257a2 2 0 000-2.828z"/>
+                        </svg>
+                        <span class="text-lg font-bold text-white">Vendas Atribuídas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="contato" class="py-16 bg-gray-800 text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-4 text-white">Pronto para Acelerar?</h2>
+            <p class="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
+                MoveFit é mais que um serviço, é um investimento no futuro digital da SportGear. Entre em contato e descubra como podemos levar sua marca ao topo.
+            </p>
+            <a href="#" class="px-8 py-4 bg-indigo-600 rounded-full text-white font-bold text-lg hover:bg-indigo-500 transition-colors duration-300 shadow-lg transform hover:scale-105">
+                Fale Conosco
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-500 py-8 text-center">
+        <div class="container mx-auto px-4">
+            <p>© 2024 MoveFit. Todos os direitos reservados. | Desenvolvido por Brayan Cechini</p>
+        </div>
+    </footer>
+
+    <script>
+        const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=";
+        const apiKey = ""; // Canvas will provide this key. Do not edit.
+
+        async function fetchWithBackoff(url, options, retries = 3, delay = 1000) {
+            try {
+                const response = await fetch(url, options);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return await response.json();
+            } catch (error) {
+                if (retries > 0) {
+                    console.warn(`Retry attempt ${4 - retries} failed. Retrying in ${delay / 1000}s...`);
+                    await new Promise(res => setTimeout(res, delay));
+                    return fetchWithBackoff(url, options, retries - 1, delay * 2);
+                } else {
+                    throw error;
+                }
+            }
+        }
+
+        async function generateContent(input, isKeywords) {
+            const resultDiv = isKeywords ? document.getElementById('keywords-result') : document.getElementById('content-result');
+            resultDiv.innerHTML = '<div class="loading-spinner mx-auto"></div>';
+
+            const systemPrompt = isKeywords ?
+                "Atue como um especialista em SEO. Dada uma palavra-chave, forneça uma lista de 5 a 10 palavras-chave de cauda longa (long-tail keywords) e termos relacionados que um e-commerce de desporto usaria para melhorar a sua visibilidade online. Separe cada palavra-chave por uma quebra de linha." :
+                "Atue como um criador de conteúdo digital. Dada uma palavra-chave ou produto de desporto, gere 5 ideias de conteúdo para blog, 5 ideias para vídeos curtos (Reels/TikTok) e 5 ideias de posts para redes sociais. Seja criativo e use uma linguagem inspiradora.";
+
+            const userQuery = isKeywords ?
+                `A minha palavra-chave é: ${input}. Gere a lista de palavras-chave.` :
+                `O meu tópico é: ${input}. Gere as ideias de conteúdo.`;
+
+            const payload = {
+                contents: [{ parts: [{ text: userQuery }] }],
+                systemInstruction: {
+                    parts: [{ text: systemPrompt }]
+                }
+            };
+
+            try {
+                const response = await fetchWithBackoff(API_URL + apiKey, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                const text = response?.candidates?.[0]?.content?.parts?.[0]?.text || 'Ocorreu um erro ao gerar o conteúdo. Por favor, tente novamente.';
+                
+                // Formatar a resposta
+                let formattedText = text;
+                if (!isKeywords) {
+                    formattedText = formattedText.replace(/###/g, '<strong>').replace(/\n\n/g, '</strong><br><br>');
+                }
+
+                resultDiv.innerHTML = `<p>${formattedText}</p>`;
+            } catch (error) {
+                console.error('API Error:', error);
+                resultDiv.innerHTML = '<p>Ocorreu um erro ao conectar com o serviço. Por favor, tente novamente mais tarde.</p>';
+            }
+        }
+
+        document.getElementById('generate-content-btn').addEventListener('click', () => {
+            const input = document.getElementById('content-input').value;
+            if (input) {
+                generateContent(input, false);
+            }
+        });
+
+        document.getElementById('generate-keywords-btn').addEventListener('click', () => {
+            const input = document.getElementById('keywords-input').value;
+            if (input) {
+                generateContent(input, true);
+            }
+        });
+
+    </script>
+</body>
+</html>
